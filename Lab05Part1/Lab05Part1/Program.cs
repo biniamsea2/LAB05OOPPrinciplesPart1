@@ -6,7 +6,11 @@ namespace Lab05Part1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Snake Cobra = new Snake();
+
+            Lion biniam = new Lion();
+            biniam.
+
         }
     }
 }
