@@ -9,6 +9,10 @@ namespace Lab05Part1
         public bool BlackColor { get; set; } = true;
 
 
+        public override string Size { get; set; }
+        public override string TeethSize { get; set; }
+
+
         public override void Eat()
         {
             Console.WriteLine(" Yes, I Eat");
