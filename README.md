@@ -1,6 +1,7 @@
 # Lab 05 Part 1
 
-LAB 03: OOP Prinicples Part 1
+
+LAB 05: Lab 05 OOP Priniciples Part 1
 
 *Author: Biniam Tesfamariam*
 
@@ -25,7 +26,7 @@ Override
 Clone this repository to your local machine.
 
 ```
-$ git clone https://github.com/biniamsea2/Lab03-Systems-IO.git
+https://github.com/biniamsea2/LAB05OOPPrinciplesPart1.git
 ```
 
 ### To run the program from Visual Studio:
@@ -42,7 +43,7 @@ Then select and open ```Lab05Part1.sln```
 ### Visuals
 
 #### Application Start
-![Image 1](https://github.com/biniamsea2/Lab03-Systems-IO/blob/master/Screenshots/mainMenu.png)
+![Image 1](https://github.com/biniamsea2/LAB05OOPPrinciplesPart1/blob/master/DrawIO/Screenshot%20(39).png)
 
 ---
 
