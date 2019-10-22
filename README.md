@@ -25,7 +25,7 @@ Override
 Clone this repository to your local machine.
 
 ```
-$ git clone https://github.com/biniamsea2/Lab03-Systems-IO.git
+https://github.com/biniamsea2/LAB05OOPPrinciplesPart1.git
 ```
 
 ### To run the program from Visual Studio:
