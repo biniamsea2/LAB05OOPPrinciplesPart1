@@ -4,8 +4,8 @@ using System.Text;
 
 namespace Lab05Part1
 {
-    class Reptile : Animal
+   abstract class Reptile : Animal
     {
-        public bool IsColdBlooded { get; set; } = true;
+        public virtual bool IsColdBlooded { get; set; } = true;
     }
 }

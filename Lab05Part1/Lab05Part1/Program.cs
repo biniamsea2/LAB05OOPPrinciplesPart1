@@ -6,10 +6,7 @@ namespace Lab05Part1
     {
         static void Main(string[] args)
         {
-            Snake Cobra = new Snake();
-
-            Lion biniam = new Lion();
-            biniam.
+            
 
         }
     }
