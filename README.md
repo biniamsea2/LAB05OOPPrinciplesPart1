@@ -42,7 +42,7 @@ Then select and open ```Lab05Part1.sln```
 ### Visuals
 
 #### Application Start
-![Image 1](https://github.com/biniamsea2/Lab03-Systems-IO/blob/master/Screenshots/mainMenu.png)
+![Image 1](https://github.com/biniamsea2/LAB05OOPPrinciplesPart1/blob/master/DrawIO/Screenshot%20(38).png)
 
 ---
 
