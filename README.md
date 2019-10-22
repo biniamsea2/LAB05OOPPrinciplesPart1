@@ -1,6 +1,6 @@
 # Lab 05 Part 1
 
-LAB 03: System I.O
+LAB 05: Lab 05 OOP Priniciples Part 1
 
 *Author: Biniam Tesfamariam*
 
