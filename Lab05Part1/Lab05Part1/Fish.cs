@@ -4,9 +4,12 @@ using System.Text;
 
 namespace Lab05Part1
 {
-    class Fish : Animal
+    abstract class Fish : Animal
     {
-        public bool HasGills { get; set; } = true;
-        public bool HasLegs { get; set; } = false;
+        public virtual bool HasGills { get; set; } = true;
+        public virtual bool HasLegs { get; set; } = false;
+
+        
+
     }
 }
