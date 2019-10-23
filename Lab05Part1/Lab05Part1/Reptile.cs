@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Lab05Part1
 {
-    abstract class Reptile : Animal
+    public abstract class Reptile : Animal
     {
         public virtual bool IsColdBlooded { get; set; } = true;
 
@@ -15,9 +15,11 @@ namespace Lab05Part1
         }
         
 
-        public virtual void Friendly()
+        public virtual string Friendly()
         {
             Console.WriteLine("I'm friendly");
+            return Friendly();
+
         }
 
     }

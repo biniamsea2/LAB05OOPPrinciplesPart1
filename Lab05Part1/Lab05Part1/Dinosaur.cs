@@ -4,21 +4,30 @@ using System.Text;
 
 namespace Lab05Part1
 {
-    class Dinosaur : Reptile
+    public class Dinosaur : Reptile
     {
+
+
+
+
+
         public string ColorOfDinosaur { get; set; }
         public override bool IsColdBlooded { get; set; } = false;
-
         public override bool Alive { get; set; } = false;
 
-        public override void Eat()
+
+
+
+        public override string Eat()
         {
-            Console.WriteLine(" Yes, I eat lizards, turtles, egss, sometimes other dinosaurs");
+            Console.WriteLine("Yes, I eat lizards, turtles, egss, sometimes other dinosaurs");
+            return "Yes, I eat lizards, turtles, egss, sometimes other dinosaurs";
         }
 
-        public override void Sleep()
+        public override string Sleep()
         {
-            Console.WriteLine(" Yes, I Sleep but no one knows how");
+            Console.WriteLine("Yes, I Sleep but no one knows how");
+            return "Yes, I Sleep but no one knows how";
         }
 
         public override void Height()
@@ -27,9 +36,11 @@ namespace Lab05Part1
         }
 
 
-        public override void Friendly()
+        public override string Friendly()
         {
             Console.WriteLine("I probably wasn't friendly considering my size and appetite");
+            return Friendly();
+
         }
 
     }

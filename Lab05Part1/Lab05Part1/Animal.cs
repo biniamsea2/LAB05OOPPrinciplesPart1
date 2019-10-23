@@ -4,11 +4,11 @@ using System.Text;
 
 namespace Lab05Part1
 {
-     abstract class Animal
+     public abstract class Animal
     {
         public virtual bool Alive { get; set; }
-        public abstract void Eat();
-        public abstract void Sleep();
+        public abstract string Eat();
+        public abstract string Sleep();
 
     }
 }

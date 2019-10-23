@@ -4,19 +4,21 @@ using System.Text;
 
 namespace Lab05Part1
 {
-    class Snake : Reptile
+    public class Snake : Reptile, IRun, IHunt
     {
         public bool HasEars { get; set; } = false;
         
 
-        public override void Eat()
+        public override string Eat()
         {
-            Console.WriteLine(" Yes, I Eat, I'm a carnivore");
+            Console.WriteLine("Yes, I Eat, I'm a carnivore");
+            return "Yes, I Eat, I'm a carnivore";
         }
 
-        public override void Sleep()
+        public override string Sleep()
         {
-            Console.WriteLine(" Yes, I Sleep but with my eyes open");
+            Console.WriteLine("Yes, I Sleep but with my eyes open");
+            return "Yes, I Sleep but with my eyes open";
         }
 
         public override void Height()
@@ -25,10 +27,24 @@ namespace Lab05Part1
         }
 
 
-        public override void Friendly()
+        public override string Friendly()
         {
             Console.WriteLine("I'm not friendly at all, depending on my type I can kill you in one bite");
+            return "I'm not friendly at all, depending on my type I can kill you in one bite";
         }
+
+
+        public void HuntOtherAnimals()
+        {
+            Console.WriteLine("Duh, I eat other animals I'm a snake.");
+        }
+
+
+        public void AbleToRun()
+        {
+            Console.WriteLine("Is this a joke, I'm a snake of course I can't run.");
+        }
+
 
     }
 }

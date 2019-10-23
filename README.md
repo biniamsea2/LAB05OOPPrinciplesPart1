@@ -1,14 +1,14 @@
-# Lab 05 Part 1
+# Lab 05 and 6 Interfaces Part 1 and 2
 
 
-LAB 05: Lab 05 OOP Priniciples Part 1
+# Lab 05 and 6 Interfaces Part 1 and 2
 
 *Author: Biniam Tesfamariam*
 
 ----
 
 ## Description
-This is a C# application that uses classes, inheritance, abstract, virtual, and override features.
+This is a C# application that uses classes, inheritance, abstract, virtual, interfaces, and override features.
 
 
 ## What's being used:  
@@ -17,6 +17,7 @@ Inheritance
 Abstraction  
 Virtual  
 Override  
+Interface  
  
 
 
@@ -48,6 +49,8 @@ Then select and open ```Lab05Part1.sln```
 ---
 
 ### Change Log
-1.0: LAB 05: LAB05 OOP Principles Part 1 complete 10/22/19
+1.0: LAB 05: LAB05 OOP Principles Part 1 complete 10/21/19
+1.1  Lab 06 Interfaces Part 2 of 2 complete 10/22/19
+
 
 ------------------------------
