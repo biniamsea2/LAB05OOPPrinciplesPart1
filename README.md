@@ -1,4 +1,4 @@
-# Lab 05 and 6 Interfaces Part 1 and 2
+# Lab 05 OOP Principles and Lab 06 Interfaces Part 1 and 2
 
 *Author: Biniam Tesfamariam*
 
