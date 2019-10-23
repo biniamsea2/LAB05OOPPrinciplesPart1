@@ -6,6 +6,6 @@ namespace Lab05Part1
 {
     interface IHunt
     {
-        void HuntOtherAnimals();
+        public string HuntOtherAnimals();
     }
 }

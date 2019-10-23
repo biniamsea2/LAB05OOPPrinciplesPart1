@@ -6,6 +6,12 @@ namespace XUnitTestProject1
 {
     public class UnitTest1
     {
+        #region Test Behavior/ inheritance/ and override.
+        /// <summary>
+        /// These test show proof of behavior, inheritance and override. The message for eat and
+        /// sleep are the override messages that you see here. These also prove that they are all animals.
+        /// I wouldn't be able to override the message from animal if Cobra wasn't an animal.
+        /// </summary>
         [Fact]
         public void TestBehaviorsForSnake()
         {
@@ -15,8 +21,8 @@ namespace XUnitTestProject1
         }
 
 
-      [Fact]
-      public void TestBehaviorsGorilla()
+        [Fact]
+        public void TestBehaviorsGorilla()
         {
             Gorilla Silverback = new Gorilla();
             Assert.Equal("Yes, I Eat", Silverback.Eat());
@@ -54,6 +60,39 @@ namespace XUnitTestProject1
 
         }
 
+        #endregion
+
+
+        #region Test Interface
+        /// <summary>
+        /// These tests test interface for the animals that have them
+        /// </summary>
+        [Fact]
+        
+        public void TestInterfaceForGorilla()
+        {
+            Gorilla Silverback = new Gorilla();
+            Assert.Equal("I mainly stick to a vegeterian diet, eating stems, bamboo shoots and fruits.", Silverback.HuntOtherAnimals());
+
+        }
+
+        [Fact]
+        public void TestInterfacesForSnake()
+        {
+            Snake Cobra = new Snake();
+            Assert.Equal("Duh, I eat other animals I'm a snake.", Cobra.HuntOtherAnimals());
+            Assert.Equal("Is this a joke, I'm a snake of course I can't run.", Cobra.AbleToRun());
+
+        }
+
+        [Fact]
+        public void TestInterfaceForGoldfish()
+        {
+            Goldfish Lionhead = new Goldfish();
+            Assert.Equal("Technically I can't run.", Lionhead.AbleToRun());
+
+        }
+        #endregion
 
 
     }
