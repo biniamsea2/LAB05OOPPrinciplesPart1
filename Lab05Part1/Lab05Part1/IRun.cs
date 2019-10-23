@@ -6,7 +6,7 @@ namespace Lab05Part1
 {
      interface IRun
     {
-        public void AbleToRun();
+         public string AbleToRun();
         
     }
 }

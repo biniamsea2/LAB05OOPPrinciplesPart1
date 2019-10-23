@@ -24,9 +24,10 @@ namespace Lab05Part1
         }
 
 
-        public void HuntOtherAnimals()
+        public string HuntOtherAnimals()
         {
             Console.WriteLine("I mainly stick to a vegeterian diet, eating stems, bamboo shoots and fruits.");
+            return "I mainly stick to a vegeterian diet, eating stems, bamboo shoots and fruits.";
         }
 
 

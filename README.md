@@ -1,8 +1,5 @@
 # Lab 05 and 6 Interfaces Part 1 and 2
 
-
-# Lab 05 and 6 Interfaces Part 1 and 2
-
 *Author: Biniam Tesfamariam*
 
 ----
@@ -49,7 +46,7 @@ Then select and open ```Lab05Part1.sln```
 ---
 
 ### Change Log
-1.0: LAB 05: LAB05 OOP Principles Part 1 complete 10/21/19
+1.0: LAB 05: LAB05 OOP Principles Part 1 complete 10/21/19  
 1.1  Lab 06 Interfaces Part 2 of 2 complete 10/22/19
 
 

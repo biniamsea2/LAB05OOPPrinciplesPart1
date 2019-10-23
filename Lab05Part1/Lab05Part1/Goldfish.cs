@@ -20,9 +20,10 @@ namespace Lab05Part1
             return "Yes, I Sleep, with my eyes open anytime of the day";
         }
 
-        public void AbleToRun()
+        public string AbleToRun()
         {
-            Console.WriteLine("Technicaly I can't run.");
+            Console.WriteLine("Technically I can't run.");
+            return "Technically I can't run.";
         }
 
 

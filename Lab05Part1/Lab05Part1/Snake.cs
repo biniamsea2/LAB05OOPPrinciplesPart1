@@ -34,15 +34,17 @@ namespace Lab05Part1
         }
 
 
-        public void HuntOtherAnimals()
+        public string HuntOtherAnimals()
         {
             Console.WriteLine("Duh, I eat other animals I'm a snake.");
+            return "Duh, I eat other animals I'm a snake.";
         }
 
 
-        public void AbleToRun()
+        public string AbleToRun()
         {
             Console.WriteLine("Is this a joke, I'm a snake of course I can't run.");
+            return "Is this a joke, I'm a snake of course I can't run.";
         }
 
 

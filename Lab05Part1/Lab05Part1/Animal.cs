@@ -10,5 +10,6 @@ namespace Lab05Part1
         public abstract string Eat();
         public abstract string Sleep();
 
+
     }
 }
